@@ -8,18 +8,18 @@ genre: a skos:ConceptScheme ;
     dct:creator "Verena"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept colour:violet, colour:green .
+    skos:hasTopConcept genre:violet, genre:green .
 
 genre:thriller a skos:Concept ;
     skos:prefLabel "thriller"@de, "Thriller"@en ;
     skos:altLabel "Lila"@de, "purple"@en ;
-    skos:topConceptOf colour: .
+    skos:topConceptOf genre: .
 
 genre:crime a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de ;
-    skos:narrower colour:grassgreen ;
-    skos:topConceptOf colour: .
+    skos:narrower genre:grassgreen ;
+    skos:topConceptOf genre: .
     
 genre:grassgreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Grasgrün"@de ;
-    skos:inScheme colour: .
+    skos:inScheme genre: .
